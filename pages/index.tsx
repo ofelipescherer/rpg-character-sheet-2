@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const Home: NextPage = () => {
   return (
@@ -20,6 +20,6 @@ const Home: NextPage = () => {
 
 const Title = styled.h1`
   color: red;
-`;
+`
 
 export default Home
