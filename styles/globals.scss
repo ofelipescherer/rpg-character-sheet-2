@@ -1,7 +1,8 @@
 @charset 'utf-8';
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 @import './theme.scss';
-:root, html[data-theme='light'] {
+:root,
+html[data-theme='light'] {
   --background-color: #212a2e;
   --text-color: #121416d8;
   --link-color: #543fd7;
@@ -9,7 +10,7 @@
 
 html[data-theme='dark'] {
   --background-color: #00a4eb;
-  --text-color: #F7F8F8;
+  --text-color: #f7f8f8;
   --link-color: #828fff;
 }
 

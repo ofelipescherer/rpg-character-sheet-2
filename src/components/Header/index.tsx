@@ -1,9 +1,10 @@
 const Header = () => {
-
-
   function changeTheme() {
-    let theme = document.documentElement.getAttribute('data-theme');
-    document.documentElement.setAttribute('data-theme', theme === 'light' ? 'dark' : 'light');
+    let theme = document.documentElement.getAttribute('data-theme')
+    document.documentElement.setAttribute(
+      'data-theme',
+      theme === 'light' ? 'dark' : 'light'
+    )
   }
 
   return (
